@@ -1,0 +1,26 @@
+<Survey>
+  <ShortName>template</ShortName>
+  <Name>Skyview Survey XML Template</Name>
+
+  <Description></Description>
+
+  <Settings>
+    <!-- The scale of this image -->
+    <Scale></Scale>
+  </Settings>
+
+  <FITS>
+    <Images>
+      
+      <ImageFactory>
+        skyview.survey.LocalImageFactory
+      </ImageFactory>
+      <UseLocal> 1 </UseLocal>
+      <SpellPrefix></SpellPrefix>
+      <SpellSuffix></SpellSuffix>
+
+      <ImageSize> 0.5 </ImageSize>
+        <Image></Image>
+    </Images>
+  </FITS>
+</Survey>
